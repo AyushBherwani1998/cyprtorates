@@ -36,6 +36,7 @@ class _HomePageState extends State<HomePage> {
       ),
       bottomNavigationBar: BottomAppBar(
         shape: CircularNotchedRectangle(),
+        notchMargin: 4.0,
         child: Container(
           height: 60.0,
           color: Color(0xFFFF1a1a1a),
